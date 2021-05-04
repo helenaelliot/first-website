@@ -3,18 +3,14 @@ body {
     color: white;    
 }
 
-footer {
-    font-weight: 600;
-}
-
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 p {
-    font-weight: 300;
     font-family: 'Nunito', sans-serif;
+    font-weight: 300;
 }
 
 .bold-footer-text {
@@ -22,24 +18,32 @@ p {
 }
 
 a:link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     color: #FEE762;
     background-color: transparent;
     text-decoration: none;
 }
   
 a:visited {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     color: #FEE762;
     background-color: transparent;
     text-decoration: none;
 }
   
 a:hover {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     color: #FEE762;
     background-color: transparent;
     text-decoration: underline;
 }
   
 a:active {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
     color: #FEE762;
     background-color: transparent;
     text-decoration: underline;
