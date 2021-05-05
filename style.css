@@ -1,56 +1,39 @@
+/* Styling for body element */
+
 body {
     background-color: white;
-    color: #585858;    
+    color: #585858;
+    padding: 40px;   
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-}
 
-p {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-}
+/* Styling for logo
+   - changes size for logo
+   - removes background color from link hover
+     for when hovering over logo */
 
-.bold-footer-text {
-    font-weight: 800;
+.logo {
+    width: 3rem;
+    height: auto;
 }
 
 .no-hover:hover {
     background-color: transparent;
 }
 
-a:link {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
-    color: #585858;
-    background-color: transparent;
-    text-decoration: underline;
+
+/* Styling for navbar
+   - removes underline from text links */
+
+nav {
+    position: absolute;
+    right: 40px;
+    top: 40px;
 }
-  
-a:visited {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
-    color: #585858;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-a:hover {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
-    color: black;
-    background-color: #2EFFC7;
-    text-decoration: none;
-}
-  
-a:active {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 800;
-    color: #585858;
-    background-color: transparent;
-    text-decoration: underline;
+
+.nav-link {
+    font-size: 1.2rem;
+    margin-left: 3rem;
 }
 
 .nav-link:link {
@@ -84,6 +67,95 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+
+/* Styling for main element */
+
+main {
+    padding-bottom: 15rem;
+}
+
+
+/* Styling for footer */
+
+footer {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.bold-footer-text {
+    font-weight: 800;
+}
+
+
+/* Styling for headings */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+h1 {
+    padding-top: 10rem;
+    padding-bottom: 18rem;
+}
+
+
+/* Styling for paragraphs */
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+}
+
+
+/* Styling for drawing */
+
+.art {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+
+/* Styling for links */
+
+a:link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #585858;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:visited {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #585858;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: black;
+    background-color: #2EFFC7;
+    text-decoration: none;
+}
+  
+a:active {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #585858;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+/* Styling for selected text */
 
 ::selection {
     color: black;
