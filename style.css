@@ -156,7 +156,7 @@ a:hover {
 a:active {
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
-    color: #585858;
+    color: rgb(88, 88, 88);
     background-color: transparent;
     text-decoration: underline;
 }
