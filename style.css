@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: white;    
+    background-color: white;
+    color: #585858;    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,39 +17,75 @@ p {
     font-weight: 800;
 }
 
+.no-hover:hover {
+    background-color: transparent;
+}
+
 a:link {
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-    color: #FEE762;
+    font-weight: 800;
+    color: #585858;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
 }
   
 a:visited {
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-    color: #FEE762;
+    font-weight: 800;
+    color: #585858;
     background-color: transparent;
     text-decoration: none;
 }
   
 a:hover {
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-    color: #FEE762;
-    background-color: transparent;
-    text-decoration: underline;
+    font-weight: 800;
+    color: black;
+    background-color: #2EFFC7;
+    text-decoration: none;
 }
   
 a:active {
     font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-    color: #FEE762;
+    font-weight: 800;
+    color: #585858;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.nav-link:link {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #585858;
+    background-color: transparent;
+    text-decoration: none; 
+}
+
+.nav-link:visited {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #585858;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: black;
+    background-color: #2EFFC7;
+    text-decoration: none;
+}
+
+.nav-link:active {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #585858;
     background-color: transparent;
     text-decoration: underline;
 }
 
 ::selection {
     color: black;
-    background: #FEE762;
+    background: #2AFFCB;
 }
