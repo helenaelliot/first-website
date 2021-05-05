@@ -13,7 +13,7 @@ body {
      for when hovering over logo */
 
 .logo {
-    width: 3rem;
+    width: 2rem;
     height: auto;
 }
 
@@ -32,8 +32,8 @@ nav {
 }
 
 .nav-link {
-    font-size: 1.2rem;
-    margin-left: 3rem;
+    font-size: 1rem;
+    margin-left: 1.5rem;
 }
 
 .nav-link:link {
@@ -72,7 +72,7 @@ nav {
 /* Styling for main element */
 
 main {
-    padding-bottom: 15rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -80,7 +80,13 @@ main {
 
 footer {
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 1.5rem;
+}
+
+.p-footer {
+    line-height: 1.15;
+    font-size: 0.8rem;
+    margin: 0.5rem;
 }
 
 .bold-footer-text {
@@ -97,8 +103,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    padding-top: 10rem;
-    padding-bottom: 18rem;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
 }
 
 
@@ -107,6 +113,7 @@ h1 {
 p {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
+    line-height: 1.5;
 }
 
 
