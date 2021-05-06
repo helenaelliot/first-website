@@ -1,17 +1,14 @@
 /* Styling for body element */
-
 body {
     background-color: white;
     color: #585858;
     padding: 40px;   
 }
 
-
 /* Styling for logo
    - changes size for logo
    - removes background color from link hover
      for when hovering over logo */
-
 .logo {
     width: 2rem;
     height: auto;
@@ -21,10 +18,8 @@ body {
     background-color: transparent;
 }
 
-
 /* Styling for navbar
    - removes underline from text links */
-
 nav {
     position: absolute;
     right: 40px;
@@ -68,16 +63,12 @@ nav {
     text-decoration: underline;
 }
 
-
 /* Styling for main element */
-
 main {
     padding-bottom: 5rem;
 }
 
-
 /* Styling for footer */
-
 footer {
     text-align: center;
     padding-top: 1.5rem;
@@ -93,9 +84,7 @@ footer {
     font-weight: 800;
 }
 
-
 /* Styling for headings */
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -107,18 +96,14 @@ h1 {
     padding-bottom: 8rem;
 }
 
-
 /* Styling for paragraphs */
-
 p {
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
     line-height: 1.5;
 }
 
-
 /* Styling for drawing */
-
 .art {
     display: block;
     max-width: 90%;
@@ -126,9 +111,7 @@ p {
     margin: auto;
 }
 
-
 /* Styling for links */
-
 a:link {
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
@@ -161,9 +144,7 @@ a:active {
     text-decoration: underline;
 }
 
-
 /* Styling for selected text */
-
 ::selection {
     color: black;
     background: #2AFFCB;
