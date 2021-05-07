@@ -7,7 +7,7 @@ body {
 main {
   padding-top: 1rem;
   padding-bottom: 5rem;
-  max-width: 780px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -59,7 +59,6 @@ p {
   margin: auto;
 }
 
-/* Styling for links */
 a {
   font-family: "Nunito", sans-serif;
   font-weight: 800;
@@ -108,4 +107,37 @@ nav {
 ::selection {
   color: black;
   background: #2affcb;
+}
+
+/* Styling for large screen header */
+@supports (display:grid) {
+  @media (min-width: 800px) {
+
+    .hero-big {
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+      "text image"
+      ;
+      grid-column-gap: 3rem;
+      padding-top: 4rem;
+      max-width: 820px;
+      margin: auto;
+    }
+    
+    .hero-text {
+      grid-area: text;
+      align-self: center;
+    }
+
+    .hero-image {
+      grid-area: image;
+    }
+
+    h1 {
+      padding-top: 0rem;
+      padding-bottom: 0rem;
+    }
+  }
 }
