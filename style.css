@@ -1,130 +1,66 @@
-/* Styling for body element */
 body {
+  padding: 40px;
   background-color: white;
   color: #585858;
-  padding: 40px;
 }
 
-/* Styling for logo
-   - changes size for logo
-   - removes background color from link hover
-     for when hovering over logo */
-.logo {
-  width: 2rem;
-  height: auto;
-}
-
-.no-hover:hover {
-  background-color: transparent;
-}
-
-/* Styling for navbar
-   - removes underline from text links */
-nav {
-  position: absolute;
-  right: 40px;
-  top: 40px;
-}
-
-.nav-link {
-  font-size: 1rem;
-  margin-left: 1.5rem;
-}
-
-.nav-link:link {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  color: #585858;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.nav-link:visited {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  color: #585858;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.nav-link:hover {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  color: black;
-  background-color: #2effc7;
-  text-decoration: none;
-}
-
-.nav-link:active {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  color: #585858;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-/* Styling for main element */
 main {
+  padding-top: 1rem;
   padding-bottom: 5rem;
+  max-width: 780px;
+  margin: auto;
 }
 
-/* Styling for footer */
 footer {
-  text-align: center;
   padding-top: 1.5rem;
+  text-align: center;
 }
 
 .p-footer {
-  line-height: 1.15;
-  font-size: 0.8rem;
+  padding-top: 0rem;
   margin: 0.5rem;
   max-width: 100%;
-  padding-top: 0rem;
+  line-height: 1.15;
+  font-size: 0.8rem;
 }
 
 .bold-footer-text {
   font-weight: 800;
 }
 
-/* Styling for headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   padding-top: 4rem;
-  max-width: 780px;
   margin: auto;
 }
 
 h1 {
   padding-top: 8rem;
   padding-bottom: 13rem;
-  max-width: 780px;
   margin: auto;
+  max-width: 780px;
 }
 
-/* Styling for paragraphs */
 p {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.5;
-  max-width: 780px;
-  margin: auto;
   padding-top: 1rem;
 }
 
 /* Styling for drawing */
 .art {
   display: block;
-  width: 90%;
-  max-width: 500px;
+  width: 100%;
+  max-width: 450px;
   height: auto;
   margin: auto;
-  padding-bottom: 1rem;
 }
 
 /* Styling for links */
-a:link {
+a {
   font-family: "Nunito", sans-serif;
   font-weight: 800;
   color: #585858;
@@ -132,40 +68,44 @@ a:link {
   text-decoration: underline;
 }
 
-a:visited {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  color: #585858;
-  background-color: transparent;
-  text-decoration: none;
-}
-
 a:hover {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
   color: black;
   background-color: #2effc7;
   text-decoration: none;
 }
 
-a:active {
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  color: rgb(88, 88, 88);
-  background-color: transparent;
+/* Styling for navbar
+ - removes underline from text links */
+nav {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+    
+.nav-link {
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+.nav-link:active {
   text-decoration: underline;
 }
 
+/* Styling for logo
+ - removes background color from link hover
+   for when hovering over logo */
+.logo {
+  width: height;
+  height: 1.2rem;
+}
+      
+.logo-no-hover:hover {
+  background-color: transparent;
+}
+    
 /* Styling for selected text */
 ::selection {
   color: black;
   background: #2affcb;
 }
-
-
-/* Styling for header */
-/*
-.hero-small {
-  min-height: 100vh;
-} 
-*/
