@@ -109,6 +109,14 @@ nav {
   background: #2affcb;
 }
 
+/* Styling for small screen header */
+@media (max-width: 500px) {
+
+  .hero-text {
+    height: 100vh;
+  }   
+ }
+
 /* Styling for large screen header */
 @supports (display:grid) {
   @media (min-width: 800px) {
